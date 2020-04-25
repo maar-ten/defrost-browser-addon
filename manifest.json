@@ -13,7 +13,12 @@
         "default_icon": "page-action-icon.svg",
         "show_matches": [
             "*://*.instagram.com/*",
-            "*://*.facebook.com/*"
+            "*://*.facebook.com/*",
+            "*://*.pinterest.com/*",
+            "*://*.pinterest.de/*",
+            "*://*.pinterest.fr/*",
+            "*://*.pinterest.co.uk/*",
+            "*://*.pinterest.nl/*"
         ]
     },
     "background": {
