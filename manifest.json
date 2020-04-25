@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Defrost",
+    "version": "1.1",
+    "description": "Remove parts of a web page that freeze up the user experience",
+    "icons": {
+        "16": "icon.svg",
+        "48": "icon.svg",
+        "128": "icon.svg"
+    },
+    "page_action": {
+        "default_title": "Defrost this page",
+        "default_icon": "page-action-icon.svg",
+        "show_matches": [
+            "*://*.instagram.com/*",
+            "*://*.facebook.com/*"
+        ]
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
