@@ -4,6 +4,8 @@ browser.pageAction.onClicked.addListener(tab => {
         unfreezeFacebook();
     } else if (hostname.includes('instagram')) {
         unfreezeInstagram();
+    } else if (hostname.includes('pintereset')) {
+        unfreezePintereset();
     }
 });
 
@@ -22,6 +24,15 @@ function unfreezeInstagram() {
     const REMOVE_NODE = `document.querySelector("${NODE_SELECTOR}").remove();`;
 
     browser.tabs.insertCSS({ code: CSS });
+    browser.tabs.executeScript({
+        code: REMOVE_NODE
+    });
+}
+
+function unfreezePintereset() {
+    const NODE_SELECTOR = "div[data-test-id='giftWrap']";
+    const REMOVE_NODE = `document.querySelector("${NODE_SELECTOR}").remove();`;
+
     browser.tabs.executeScript({
         code: REMOVE_NODE
     });
