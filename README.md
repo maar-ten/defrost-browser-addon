@@ -1,4 +1,4 @@
-![Defrost](/icon.svg)
+![Defrost](/images/icon.svg)
 
 Defrost
 ===
@@ -12,7 +12,7 @@ Introduction
 ---
 After installing this browser add-on there'll appear an icon in the address bar when visiting on of the supported websites. Clicking that icon will remove the popup so you can continue browsing the website.
 
-![Screenprint](instagram_example.png)
+![Screenprint](/images/instagram_example.png)
 
 Permissions
 ---
