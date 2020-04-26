@@ -4,13 +4,13 @@
     "version": "1.3",
     "description": "Remove parts of a web page that freeze up the user experience",
     "icons": {
-        "16": "images/icon.svg",
-        "48": "images/icon.svg",
-        "128": "images/icon.svg"
+        "16": "assests/icon.svg",
+        "48": "assests/icon.svg",
+        "128": "assests/icon.svg"
     },
     "page_action": {
         "default_title": "Defrost this page",
-        "default_icon": "images/page-action-icon.svg",
+        "default_icon": "assests/page-action-icon.svg",
         "show_matches": [
             "*://*.instagram.com/*",
             "*://*.facebook.com/*",
