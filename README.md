@@ -12,7 +12,8 @@ Introduction
 ---
 After installing this browser add-on there'll appear an icon in the address bar when visiting on of the supported websites. Clicking that icon will remove the popup so you can continue browsing the website.
 
-![Screenprint](/images/instagram_example.png)
+![Before](/images/instagram_example.png)
+![After](/images/instagram_example_defrosted.png)
 
 Permissions
 ---
