@@ -36,4 +36,18 @@ const Pinterest = {
     }
 };
 
-const websites = [Facebook, Instagram, Pinterest];
+const Ftm = {
+    hostname: 'ftm',
+    unfreeze: () => {
+        const CSS = "body { overflow-y: scroll !important }";
+        const NODE_SELECTOR = ".blockingOverlay";
+        const REMOVE_NODE = `document.querySelector("${NODE_SELECTOR}").remove();`;
+
+        browser.tabs.insertCSS({ code: CSS });
+        browser.tabs.executeScript({
+            code: REMOVE_NODE
+        });
+    }
+};
+
+const websites = [Facebook, Instagram, Pinterest, Ftm];
